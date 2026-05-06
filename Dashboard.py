@@ -2,6 +2,7 @@ import numpy as np
 import streamlit as st
 import yfinance as yf
 import pandas as pd
+import time
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error 
@@ -81,6 +82,7 @@ with st.sidebar:
     st.metric("Holdings", f"{st.session_state.shares} Shares")
 
 # ------------------- DATA FETCHING -------------------
+time.sleep(1)
 data = yf.download(stock, period=period, interval="1d")
 
 if data.empty:
