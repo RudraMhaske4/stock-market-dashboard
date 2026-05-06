@@ -6,3 +6,4 @@ plotly
 groq
 numpy
 python-dotenv
+requests
