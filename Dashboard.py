@@ -82,6 +82,16 @@ with st.sidebar:
     st.metric("Holdings", f"{st.session_state.shares} Shares")
 
 # ------------------- DATA FETCHING -------------------
+@st.cache_data(ttl=300)  # cache for 5 minutes
+def get_stock_data(stock, period):
+    try:
+        ticker = yf.Ticker(stock)
+        data = ticker.history(period=period, interval="1d")
+        return data
+    except Exception as e:
+        return pd.DataFrame()
+
+data = get_stock_data(stock, period)
 time.sleep(2)
 data = yf.download(stock, period=period, interval="1d", progress=False)
 
