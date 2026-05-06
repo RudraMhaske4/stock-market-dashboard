@@ -10,6 +10,7 @@ chat with an AI assistant about the stock — all in one Streamlit dashboard.
 ## Screenshots
 
 ![Graph](screenshots/Graph.png)
+<img width="1918" height="602" alt="Graph" src="https://github.com/user-attachments/assets/f6acd0fd-fd3d-47dd-ab0f-b0b3b6753d4a" />
 
 ![Candlestick](screenshots/CandleStick.png)
 
