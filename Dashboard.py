@@ -82,8 +82,8 @@ with st.sidebar:
     st.metric("Holdings", f"{st.session_state.shares} Shares")
 
 # ------------------- DATA FETCHING -------------------
-time.sleep(1)
-data = yf.download(stock, period=period, interval="1d")
+time.sleep(2)
+data = yf.download(stock, period=period, interval="1d", progress=False)
 
 if data.empty:
     st.error(f"Invalid stock symbol: {stock}")
