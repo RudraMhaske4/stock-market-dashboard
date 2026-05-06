@@ -9,16 +9,13 @@ chat with an AI assistant about the stock — all in one Streamlit dashboard.
 
 ## Screenshots
 
-![Graph]
+
 <img width="1918" height="602" alt="Graph" src="https://github.com/user-attachments/assets/f6acd0fd-fd3d-47dd-ab0f-b0b3b6753d4a" />
 
-![Candlestick]
 <img width="1891" height="570" alt="CandleStick" src="https://github.com/user-attachments/assets/3aaf48de-e327-44ba-ab4c-50758223895d" />
 
-![ML Models]
 <img width="1918" height="661" alt="ML Models" src="https://github.com/user-attachments/assets/45f810b9-8d41-4f09-9a42-e837b4568f72" />
 
-![AI Chatbot]
 <img width="1917" height="822" alt="AI ChatBot" src="https://github.com/user-attachments/assets/cc94dd11-52d4-47f3-89b2-7fea4576328c" />
 
 
