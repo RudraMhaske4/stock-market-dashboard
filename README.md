@@ -6,8 +6,9 @@ It pulls real-time market data, runs a prediction model, and lets you
 chat with an AI assistant about the stock — all in one Streamlit dashboard.
 
 ---
-## Live Demo
-👉 [[Click here to try it live]([your_huggingface_link](https://huggingface.co/spaces/rudramhaske/stock-market-dashboard))](https://huggingface.co/spaces/rudramhaske/stock-market-dashboard)
+
+🚀 **Live Demo:** [Click here to try it](https://rudramhaske-stock-market-dashboard.hf.space/)
+
 
 ## Screenshots
 
