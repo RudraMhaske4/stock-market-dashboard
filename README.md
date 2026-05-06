@@ -36,27 +36,31 @@ chat with an AI assistant about the stock — all in one Streamlit dashboard.
 
 Clone the repo
 
-```bash
-git clone https://github.com/RudraMhaske4/stock-market-dashboard.git
-cd stock-market-dashboard
-```
+    git clone https://github.com/RudraMhaske4/stock-market-dashboard.git
+    cd stock-market-dashboard
 
 Install dependencies
 
-```bash
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
-GROQ_API_KEY=your_key_here
+Create a .env file in the project folder
+
+    GROQ_API_KEY=your_key_here
 
 Run the app
 
-```bash
-streamlit run Dashboard.py
-```
+    streamlit run Dashboard.py
 
 ---
 
 ## Project Structure
+
+    stock-market-dashboard/
+    ├── Dashboard.py        # Main Streamlit app
+    ├── Stock.ipynb         # Jupyter notebook for exploration
+    ├── requirements.txt    # Dependencies
+    ├── .gitignore
+    └── README.md
 
 ---
 
@@ -102,6 +106,3 @@ Not financial advice. Do not make real investment decisions based on this.
 Rudra Mhaske
 First Year AIML Student
 GitHub: github.com/RudraMhaske4
-```
-
-Create a `.env` file in the project folder
