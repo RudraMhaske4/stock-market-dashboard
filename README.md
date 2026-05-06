@@ -7,6 +7,16 @@ chat with an AI assistant about the stock — all in one Streamlit dashboard.
 
 ---
 
+## Screenshots
+
+![Graph](screenshots/Graph.png)
+
+![Candlestick](screenshots/CandleStick.png)
+
+![ML Models](screenshots/ML_Models.png)
+
+![AI Chatbot](screenshots/AI_ChatBot.png)
+
 ## What It Does
 
 - Pulls live stock data for any ticker (AAPL, TSLA, RELIANCE, etc.)
