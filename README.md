@@ -1,4 +1,4 @@
-# Stock Market Dashboar
+# Stock Market Dashboard
 
 A personal project I built in my first year of AIML to explore how stock 
 analysis, machine learning, and AI can work together in one application.
