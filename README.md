@@ -63,7 +63,6 @@ Create a .env file in the project folder
     GROQ_API_KEY=your_key_here
 
 Run the app
-
     streamlit run Dashboard.py
 
 ---
