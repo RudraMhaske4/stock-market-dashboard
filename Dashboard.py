@@ -2,7 +2,7 @@ import numpy as np
 import streamlit as st
 import yfinance as yf
 import pandas as pd
-import time as T
+import time 
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error 
