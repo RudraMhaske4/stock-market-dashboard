@@ -3,7 +3,7 @@
 A personal project I built in my first year of AIML to explore how stock 
 analysis, machine learning, and AI can work together in one application.
 It pulls real-time market data, runs a prediction model, and lets you 
-chat with an AI assistant about the stock — all in one Streamlit dashboard.
+chat with an AI assistant about the stock - all in one Streamlit dashboard.
 
 ---
 
